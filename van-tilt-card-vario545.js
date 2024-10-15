@@ -58,4 +58,4 @@ class VanTiltCard extends HTMLElement {
   }
 }
 
-customElements.define('van-tilt-card', VanTiltCard);
+customElements.define('van-tilt-card-vario545', VanTiltCard);
