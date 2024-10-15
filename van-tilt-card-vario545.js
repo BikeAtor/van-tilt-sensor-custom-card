@@ -1,4 +1,4 @@
-class VanTiltCard extends HTMLElement {
+class VanTiltCardVario545 extends HTMLElement {
   // Whenever the state changes, a new `hass` object is set. Use this to
   // update your content.
   set hass(hass) {
@@ -58,4 +58,4 @@ class VanTiltCard extends HTMLElement {
   }
 }
 
-customElements.define('van-tilt-card-vario545', VanTiltCard);
+customElements.define('van-tilt-card-vario545', VanTiltCardVario545);
