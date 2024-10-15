@@ -8,3 +8,5 @@ entity_x: sensor.filtered_x_angle<br>
 entity_y: sensor.filtered_y_angle<br>
 
 ![alt text](https://github.com/CF209/vanomation_website/blob/main/assets/img/tilt/tilt5.png)
+
+![Vario545](doc/vario545_screen.png)
