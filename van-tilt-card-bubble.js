@@ -21,7 +21,7 @@ class VanTiltCardBubble extends HTMLElement {
       var height = positionInfo.height;
       var width = positionInfo.width;
       levelSize = positionInfo.width;
-      levelSize=100;
+      levelSize = 100;
     }
 
     var levelSize = this.config.size ? parseFloat(this.config.size) : 400;
@@ -29,8 +29,12 @@ class VanTiltCardBubble extends HTMLElement {
       ? parseFloat(this.config.bubbleSize)
       : levelSize / 10;
     const factor = levelSize / 20;
-    const vehicleWidthCm = 240;
-    const vehicleLengthCm = 400;
+    const vehicleWidthCm = this.config.vehicleWidth
+      ? parseFloat(this.config.vehicleWidth)
+      : 240;
+    const vehicleLengthCm = this.config.vehicleLength
+      ? parseFloat(this.config.vehicleLength)
+      : 400;
     const fontSize = levelSize / 2;
 
     const entityX = this.config.entity_x;
