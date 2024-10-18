@@ -17,7 +17,12 @@ To install the card, create a new folder in your "homeassistant/www/" directory 
 
     type: custom:van-tilt-card-bubble
     title: Ausrichtung
+    # size in pixel
     size: 350
+    # width in cm (should be tire to tire)
+    vehicleWidth: 240
+    # length in cm
+    vehicleLength: 400
     entity_x: sensor.panroll
     entity_y: sensor.panpitch
 
